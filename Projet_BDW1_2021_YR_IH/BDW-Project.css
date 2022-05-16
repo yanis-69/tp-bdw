@@ -1,0 +1,68 @@
+
+li {
+list-style:none !important;
+color:#FFF;
+padding:10px;
+font-size:20px;
+text-decoration:none;
+}
+nav ul {
+background-color:#9effc3;
+padding:2px;
+margin-left:400px;
+margin-right:500px;
+}
+nav ul li {
+list-style: none;
+line-height:15px;
+
+
+background-color:#6c7772;
+}
+nav ul li a {
+color:#FFF;
+padding:30px;
+font-size:20px;
+text-decoration:none;
+}
+
+nav ul li ul { display:none; } /* Rend le menu déroulant caché par défaut */
+nav ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+z-index:99999;
+display:list-item !important;
+position:absolute;
+margin-top:5px;
+margin-left:-10px;
+}
+nav ul li:hover ul li {
+float:none;
+}
+
+.image
+{
+    width: 200px;
+	height: 200px;
+    top: 10px;
+    left: 10px;
+}
+
+.connexion
+{
+    margin-top: -180px ;
+    margin-left: 300px ;
+    margin-right:500px;
+}
+
+.body {
+    color:black;
+    background-color:white;
+    background-image:url(https://spationaute.fr/wp-content/uploads/2018/08/Background-zone-2.png);
+    background-size:100% 100%
+    
+    }
+
+.findepage
+{
+    margin-top: 100% ;
+
+}    
